@@ -1,11 +1,18 @@
 export default function Nav() {
   return (
     <nav className="site-nav">
-      <div
-        className="nav-logo"
-        style={{ fontFamily: "var(--font-bebas)" }}
-      >
-        ZIG<span>GL</span>
+      <div className="nav-brand" style={{ display: "flex", alignItems: "flex-end", gap: "10px" }}>
+        <img
+          src="/ziggl-logo-transparent.svg"
+          alt="Ziggl"
+          className="nav-logo"
+        />
+        <span
+          className="nav-wordmark"
+          style={{ fontFamily: "var(--font-bebas)" }}
+        >
+          ZIG<span>GL</span>
+        </span>
       </div>
       <ul className="nav-links">
         <li><a href="#features">Features</a></li>

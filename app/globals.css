@@ -37,12 +37,21 @@ nav.site-nav {
   backdrop-filter: blur(16px);
   border-bottom: 1px solid var(--border);
 }
+.nav-brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
 .nav-logo {
+  height: 48px;
+  width: auto;
+}
+.nav-wordmark {
   font-size: 26px;
   letter-spacing: 5px;
   color: var(--black);
 }
-.nav-logo span { color: var(--accent); }
+.nav-wordmark span { color: var(--accent); }
 .nav-links { list-style: none; display: flex; gap: 36px; }
 .nav-links a {
   color: var(--text2);
@@ -585,6 +594,8 @@ footer.site-footer {
 @media (max-width: 900px) {
   nav.site-nav { padding: 18px 24px; }
   .nav-links { display: none; }
+  .nav-wordmark { display: none; }
+  .nav-cta { font-size: 13px; padding: 10px 16px; white-space: nowrap; }
   .hero,
   .features-section,
   .review-section,
