@@ -3,7 +3,7 @@ export default function Nav() {
     <nav className="site-nav">
       <div className="nav-brand" style={{ display: "flex", alignItems: "flex-end", gap: "10px" }}>
         <img
-          src="/ziggl-logo-transparent.svg"
+          src="/ziggl-icon-outline.svg"
           alt="Ziggl"
           className="nav-logo"
         />
