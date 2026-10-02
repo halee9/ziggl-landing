@@ -9,7 +9,7 @@ export default function Footer() {
       </div>
       <div>
         <div className="footer-text">
-          © 2026 Ziggl. Built for Korean-owned restaurants.
+          © 2026 High Square Inc. Built for Korean-owned restaurants.
         </div>
         <div
           className="footer-ko"
